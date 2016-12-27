@@ -1,13 +1,9 @@
 package com.entities;
 
-import javax.annotation.Generated;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
-/**
- * Created by Severin on 28.05.2016.
- */
 @Entity
 public class Turnover implements Serializable{
 

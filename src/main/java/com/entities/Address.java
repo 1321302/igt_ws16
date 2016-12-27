@@ -1,13 +1,9 @@
 package com.entities;
 
 import javax.persistence.*;
-import javax.sql.rowset.serial.SerialArray;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
-/**
- * Created by Severin on 28.05.2016.
- */
 @Entity
 public class Address implements Serializable{
 
