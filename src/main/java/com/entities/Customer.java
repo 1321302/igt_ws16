@@ -37,7 +37,7 @@ public class Customer implements Serializable {
                 '}';
     }
 
-    public Customer() { }
+    public Customer(String lastName, String firstName, Date birthDate) { }
 
     public Customer(int customerId) {
         this.customerId = customerId;

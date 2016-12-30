@@ -5,18 +5,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.xml.sax.SAXException;
 
-import java.io.IOException;
-import java.net.URL;
-
 import javax.xml.XMLConstants;
 import javax.xml.transform.stream.StreamSource;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
+import java.io.IOException;
+import java.net.URL;
 
-/**
- * Created by Tim on 01.06.2016.
- */
 @Controller
 public class WSDLValidatorController{
     @RequestMapping(value = "/validateWSDL")

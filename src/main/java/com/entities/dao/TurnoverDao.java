@@ -13,9 +13,6 @@ import javax.annotation.PostConstruct;
 import javax.transaction.Transactional;
 import java.util.List;
 
-/**
- * Created by Zero on 30.05.2016.
- */
 @Repository
 @Transactional
 public class TurnoverDao {
